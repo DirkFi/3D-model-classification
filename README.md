@@ -18,7 +18,6 @@ Use
 pip install -r requirements.txt
 ```
 to install neede packages. About the torch version, it's better to use the GPU version. See https://pytorch.org/.
-# Chinese Version
 
 ### Way to change dataset link
 In the ***args*** parameter, change test_path, train_path, val_path to your own path. Remember the format is ImageNet.
@@ -31,7 +30,7 @@ Run
 python res_train_main_D.py
 ```
 
-
+# Chinese Version
 ## 基于无监督域适应的三维模型分类研究
 
 本方法集中于把源域（ImageNet）和目标域（3D模型渲染图）的域差异解决，从而给出对3D模型本身的正确分类。
